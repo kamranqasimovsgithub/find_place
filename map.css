@@ -1,0 +1,131 @@
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+}
+.logo h2 {
+    color: blue;
+}
+.logo h2 span {
+    color: rgb(234, 234, 56);
+}
+header {
+    height:90px;
+    margin-top: 20px;
+}
+ input {
+    border: 1px solid rgb(234, 234, 56);
+    outline: none;
+    padding: 10px 20px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+ i {
+    border: 1px solid;
+    height: 46px;
+    padding: 15px;
+    border-left: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.form-select {
+    width: 100%;
+    margin-top: 20px;
+}
+.form-select:focus {
+    border-color: rgb(234, 234, 56);
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(253, 241, 13, 0.25);
+}
+.search {
+    display: flex;
+    justify-content: space-between;
+}
+.search-img, .dimg{
+    width: 70%;
+    position: relative;
+}
+.search-img img{
+    width: 100%;
+}
+.box1 a{
+    position: absolute;
+    top: 45%;
+    right: 50%;
+    color: darkgreen !important;
+    font-size: 30px;
+}
+.box2 a{
+    position: absolute;
+    top: 40%;
+    right: 55%;
+    color: red !important;
+    font-size: 30px;
+}
+.box3 a{
+    position: absolute;
+    top: 47%;
+    right: 58%;
+    color: yellow !important;
+    font-size: 30px;
+}
+.search-img i {
+    border: none;
+}
+.dimg {
+    display: none;
+}
+
+.dimg img{
+    width: 100%;
+}
+.green {
+    display: none;
+}
+.greenblock {
+    display: block;
+}
+.yellow {
+    display: none;
+}
+.yellowblock {
+    display: block;
+}
+.red {
+    display: none;
+}
+.redblock {
+    display: block;
+}
+
+@media screen and (max-width: 992px){
+    .form-select {
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    .search-form {
+        text-align: center;
+    }
+    .search {
+        display: block;
+    }
+    .search-img, .dimg {
+        width: 100%;
+       margin-left: auto;
+       margin-right: auto;
+       margin-top: 30px;
+    }
+    .dimg img{
+        width: 100%;
+    }
+    .card {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
